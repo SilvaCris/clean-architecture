@@ -3,6 +3,14 @@
 
 
 
+### Exemplos de  testes
+#### POST
+
+![alt text](image-1.png)
+
+#### GET ALL
+![alt text](image-2.png)
+
 
 
 ## Aprendizados da semana
