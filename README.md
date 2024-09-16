@@ -1,69 +1,11 @@
-# como criar um projeto com typescript e jest
 
-## inserir ts
-
-1- instalar typescript glogal
-
-````
-npm install -g typescript
-````
+# Projeto Api de livros 📖 
 
 
-2- Inciar o projeto com npm
-
-````
-npm init -y 
-````
-
-3- Instalar dependencias que usaremos no projeto
-
-````
-npm install express
-````
-
-````
-npm install typescript ts-node-dev @types/node @types/express
-````
-
-4- Iniciar o tsconfig
-
-````
-npx tsc --init
-````
-
-5 - Criar script
-
-````
-"scripts": {
-  "start": "ts-node-dev --respawn src/index.ts"
-}
-````
-
-## inserir jest
 
 
-1- Instalar o jest
 
-````
-npm install jest ts-jest @types/jest
-````
+## Aprendizados da semana
 
-2- Instalar o supertest
+ - Durante esta semana, foram abordados conceitos de Clean Architecture e TypeScript. Destacando a importância de separar as responsabilidades em camadas distintas para criar sistemas mais robustos e testáveis e a utilização de tipagem de para garantir a segurança do código e facilitar a manutenção.
 
-````
-npm install supertest @types/supertest
-````
-
-3- Inicializar o jestconfig
-
-````
-npx ts-jest config:init
-````
-
-4- criar o script
-
-````
-"scripts": {
-  "test": "jest"
-}
-````
